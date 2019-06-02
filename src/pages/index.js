@@ -64,7 +64,9 @@ const IndexPage = () => {
               font-weight: bold;
               animation: ${spaceOut} 2s linear;
               animation-fill-mode: forwards;
+              cursor: pointer;
             `}
+            onClick={() => reward.current.rewardMe()}
           >
             JReact
           </h1>
